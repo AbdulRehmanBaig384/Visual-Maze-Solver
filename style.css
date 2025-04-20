@@ -284,17 +284,7 @@ button::before {
         linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px),
         linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px);
     background-size: 40px 40px;
-    z-index: 0;
-    animation: moveWall 20s linear infinite;
-}
-
-@keyframes moveWall {
-    0% { background-position: 0 0; }
-    100% { background-position: 200px 200px; }
-} */ */
-
-
-
+    z-index: 0;*/
 
 
 
