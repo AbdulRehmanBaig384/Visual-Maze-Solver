@@ -1,44 +1,4 @@
-
-
-
-
-/* 
- * {
-    box-sizing: border-box;
-
-
-@keyframes bgAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-
-
-
-
-c
-
-button {
-    padding: 14px 32px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border-radius: 50px;
-    background: linear-gradient(135deg, #1e90ff, #00ffff);
-    color: #000;
-    cursor: pointer;
-    box-shadow: 0 0 25px #00ffff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-button:hover {
-    transform: scale(1.1) rotate(-1deg);
-    box-shadow: 0 0 40px #00ffff, 0 0 20px #00ffff inset;
-}
-* {
+ {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
