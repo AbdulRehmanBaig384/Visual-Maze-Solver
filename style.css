@@ -2,29 +2,10 @@
 
 
 
-
-
-
 /* 
  * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
-    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1e3c72);
-    background-size: 400% 400%;
-    animation: bgAnimation 20s ease infinite;
-    color: #f0f0f0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    perspective: 1000px;
-}
 
 @keyframes bgAnimation {
     0% { background-position: 0% 50%; }
@@ -32,58 +13,11 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-#app {
-    text-align: center;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
-    backdrop-filter: blur(12px);
-    box-shadow: 0 0 60px rgba(0, 255, 255, 0.4);
-    transform: rotateX(10deg) rotateY(10deg);
-    animation: popUp 1s ease forwards;
-    transition: all 0.5s ease-in-out;
-}
 
-@keyframes popUp {
-    0% { opacity: 0; transform: scale(0.8) rotateX(20deg); }
-    100% { opacity: 1; transform: scale(1) rotateX(10deg); }
-}
 
-h1 {
-    font-size: 42px;
-    font-weight: bold;
-    color: #00ffff;
-    text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
-    animation: floatText 3s ease-in-out infinite;
-    margin-bottom: 25px;
-}
 
-@keyframes floatText {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
 
-canvas {
-    border: 5px solid #00ffcc;
-    border-radius: 25px;
-    box-shadow: 0 0 25px #00ffcc;
-    margin-bottom: 30px;
-    background-color: #000;
-    transition: transform 0.4s, box-shadow 0.4s;
-}
-
-canvas:hover {
-    transform: scale(1.05) rotateZ(1deg);
-    box-shadow: 0 0 40px #00ffff, 0 0 15px #00ffff inset;
-}
-
-.controls {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 30px;
-}
+c
 
 button {
     padding: 14px 32px;
@@ -104,44 +38,6 @@ button:hover {
     transform: scale(1.1) rotate(-1deg);
     box-shadow: 0 0 40px #00ffff, 0 0 20px #00ffff inset;
 }
-
-button::before {
-    content: "";
-    position: absolute;
-    top: -150%;
-    left: -150%;
-    width: 400%;
-    height: 400%;
-    background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, transparent 60%);
-    animation: sparkle 5s linear infinite;
-}
-
-@keyframes sparkle {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(150%, 150%); }
-}
-
-.wall {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image:
-        linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px),
-        linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px);
-    background-size: 40px 40px;
-    z-index: 0;*/
-
-
-
-
-
-
-
-
-
-
 * {
     box-sizing: border-box;
     margin: 0;
