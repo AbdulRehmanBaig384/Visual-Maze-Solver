@@ -12,21 +12,20 @@ class Cell {
   constructor(i, j) {
     this.i = i;
     this.j = j;
-    this.walls = [true, true, true, true]; // top, right, bottom, left
+    this.walls = [true, true, true, true]; 
     this.visited = false;
     this.previous = null;
   }
-
   draw() {
     const x = this.j * size;
     const y = this.i * size;
     ctx.strokeStyle = "black";
     ctx.lineWidth = 2;
 
-    if (this.walls[0]) drawLine(x, y, x + size, y); // top
-    if (this.walls[1]) drawLine(x + size, y, x + size, y + size); // right
-    if (this.walls[2]) drawLine(x + size, y + size, x, y + size); // bottom
-    if (this.walls[3]) drawLine(x, y + size, x, y); // left
+    if (this.walls[0]) drawLine(x, y, x + size, y); 
+    if (this.walls[1]) drawLine(x + size, y, x + size, y + size); 
+    if (this.walls[2]) drawLine(x + size, y + size, x, y + size); 
+    if (this.walls[3]) drawLine(x, y + size, x, y); 
 
     if (this.visited) {
       ctx.fillStyle = "#eee";
