@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
@@ -23,7 +22,6 @@ body {
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-
 .wall {
     position: absolute;
     width: 100%;
@@ -35,7 +33,6 @@ body {
     z-index: 0;
     animation: moveWall 40s linear infinite;
 }
-
 @keyframes moveWall {
     0% { background-position: 0 0; }
     100% { background-position: 300px 300px; }
@@ -57,7 +54,6 @@ body {
     0% { opacity: 0; transform: scale(0.8); }
     100% { opacity: 1; transform: scale(1); }
 }
-
 h1 {
     font-size: 48px;
     font-weight: bold;
@@ -66,7 +62,6 @@ h1 {
     text-shadow: 0 0 15px #00fff7, 0 0 35px #00fff7;
     animation: pulseGlow 3s ease-in-out infinite;
 }
-
 @keyframes pulseGlow {
     0% { text-shadow: 0 0 15px #00fff7; }
     50% { text-shadow: 0 0 35px #00fff7, 0 0 15px #00fff7; }
@@ -87,7 +82,6 @@ canvas:hover {
     transform: scale(1.08) rotate(1deg);
     box-shadow: 0 0 50px #00ffff, 0 0 20px #00ffff inset;
 }
-
 .controls {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +89,6 @@ canvas:hover {
     gap: 25px;
     margin-top: 30px;
 }
-
 button {
     padding: 14px 40px;
     font-size: 20px;
@@ -125,7 +118,6 @@ button::before {
     z-index: 0;
     opacity: 0.5;
 }
-
 @keyframes shinyEffect {
     0% { transform: translate(0%, 0%); }
     100% { transform: translate(100%, 100%); }
@@ -138,4 +130,4 @@ button:hover {
     box-shadow: 0 0 30px #00ffff, 0 0 10px #00ffff inset;
     border-color: #00ffff;
 }
- */
+ 
