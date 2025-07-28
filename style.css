@@ -67,7 +67,6 @@ h1 {
     50% { text-shadow: 0 0 35px #00fff7, 0 0 15px #00fff7; }
     100% { text-shadow: 0 0 15px #00fff7; }
 }
-
 canvas {
     border: 6px solid;
     border-image: linear-gradient(45deg, #00f2fe, #4facfe) 1;
@@ -105,7 +104,6 @@ button {
     z-index: 1;
     transition: all 0.4s ease;
 }
-
 button::before {
     content: '';
     position: absolute;
@@ -122,7 +120,6 @@ button::before {
     0% { transform: translate(0%, 0%); }
     100% { transform: translate(100%, 100%); }
 }
-
 button:hover {
     transform: scale(1.15);
     background-color: rgba(0, 255, 255, 0.2);
@@ -130,4 +127,3 @@ button:hover {
     box-shadow: 0 0 30px #00ffff, 0 0 10px #00ffff inset;
     border-color: #00ffff;
 }
- 
