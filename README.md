@@ -1,2 +1,52 @@
-# Visual-Maze-Solver
-A visual maze solver built with BFS and DFS algorithms. Includes interactive grid creation, real-time pathfinding animations, and user-friendly controls. Designed for learning and demonstrating core pathfinding logic in an engaging way.
+<h1 align="center">🧩 Visual Maze Solver</h1>
+
+<p align="center">
+  <b>⚡ A Dynamic Maze Pathfinding Visualizer using BFS & DFS ⚡</b><br>
+  <i>Built with HTML, CSS & JavaScript to demonstrate algorithmic thinking visually!</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/Style-CSS-blue?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/Frontend-HTML5-orange?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+</p>
+
+---
+
+## 🎯 Overview
+
+**Visual Maze Solver** is a web-based application that visualizes popular **pathfinding algorithms** like:
+
+- ✅ **Breadth-First Search (BFS)**
+- ✅ **Depth-First Search (DFS)**
+
+It provides a **grid-based playground** where users can draw obstacles and watch real-time algorithm animations that find the shortest path from source to destination.
+
+---
+
+## 🌟 Features
+
+- 🧱 Interactive Grid Creation
+- 🔄 Real-Time Pathfinding Animation
+- 🧭 Supports BFS & DFS
+- 📱 Fully Responsive UI
+- 🎨 Clean & Intuitive Design
+- 💡 Beginner-Friendly Codebase
+
+---
+
+## 📽️ Live Demo
+
+> Coming Soon! *(or you can add GitHub Pages/Netlify link here)*  
+> 📍 *Want a video/GIF demo? I can help you create one too!*
+
+---
+
+## 📂 Folder Structure
+📦 Visual-Maze-Solver
+┣ 📄 index.html # HTML layout
+┣ 📄 style.css # Styling and animations
+┣ 📄 script.js # Logic for grid and algorithms
+┗ 📄 README.md # Project documentation
+
