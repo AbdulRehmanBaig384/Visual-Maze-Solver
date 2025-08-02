@@ -45,8 +45,8 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 
 ## 📂 Folder Structure
 📦 Visual-Maze-Solver
-┣ 📄 index.html # HTML layout
-┣ 📄 style.css # Styling and animations
-┣ 📄 script.js # Logic for grid and algorithms
-┗ 📄 README.md # Project documentation
+┣ 📄 index.html # HTML layout<br/>
+┣ 📄 style.css # Styling and animations <br/>
+┣ 📄 script.js # Logic for grid and algorithms <br/>
+┗ 📄 README.md # Project documentation <br/>
 
