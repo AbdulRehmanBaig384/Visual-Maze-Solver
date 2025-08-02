@@ -50,3 +50,35 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 ┣ 📄 script.js # Logic for grid and algorithms <br/>
 ┗ 📄 README.md # Project documentation <br/>
 
+---
+
+## 🧠 Algorithms Explained
+
+### 📌 Breadth-First Search (BFS)
+- Explores nodes layer by layer.
+- Guaranteed to find the shortest path in unweighted graphs.
+- Uses a **queue** (FIFO).
+
+### 📌 Depth-First Search (DFS)
+- Explores a full path before backtracking.
+- Not guaranteed to find the shortest path.
+- Uses a **stack** (LIFO or recursion).
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend     | Description                   |
+|--------------|-------------------------------|
+| **HTML5**    | Structure of the visual grid  |
+| **CSS3**     | Styling, transitions & layout |
+| **JavaScript** | Logic, interactivity & animation |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/AbdulRehmanBaig384/Visual-Maze-Solver.git
+
