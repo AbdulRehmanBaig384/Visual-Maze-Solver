@@ -38,7 +38,7 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 
 ## 📽️ Live Demo
 
-> Coming Soon! *(or you can add GitHub Pages/Netlify link here)*  
+> Coming Soon! \ 
 
 
 ## 📂 Folder Structure
