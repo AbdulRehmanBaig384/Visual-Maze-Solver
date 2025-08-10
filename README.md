@@ -36,7 +36,6 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 
 ---
 
-## 📽️ Live Demo
 
 
 
