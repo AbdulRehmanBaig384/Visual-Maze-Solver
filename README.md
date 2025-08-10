@@ -39,9 +39,7 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 ## 📽️ Live Demo
 
 > Coming Soon! *(or you can add GitHub Pages/Netlify link here)*  
-> 📍 *Want a video/GIF demo? I can help you create one too!*
 
----
 
 ## 📂 Folder Structure
 📦 Visual-Maze-Solver
