@@ -36,9 +36,6 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 
 ---
 
-
-
-
 ## 📂 Folder Structure
 📦 Visual-Maze-Solver
 ┣ 📄 index.html # HTML layout<br/>
