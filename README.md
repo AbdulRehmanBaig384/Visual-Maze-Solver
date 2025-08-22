@@ -1,4 +1,5 @@
-<img width="1905" height="894" alt="image" src="https://github.com/user-attachments/assets/2cc5b435-0ae7-4f43-afb5-52f93858a33d" />
+<p align='center'>
+<img width="1905" height="894" alt="image" src="https://github.com/user-attachments/assets/2cc5b435-0ae7-4f43-afb5-52f93858a33d" /></p>
 
 <h1 align="center">🧩 Visual Maze Solver</h1>
 
