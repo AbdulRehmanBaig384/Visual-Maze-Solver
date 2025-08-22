@@ -72,6 +72,10 @@ It provides a **grid-based playground** where users can draw obstacles and watch
 
 ---
 
+🌍 Live Demo
+https://virtual-maze-solver.netlify.app/
+
+---
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
