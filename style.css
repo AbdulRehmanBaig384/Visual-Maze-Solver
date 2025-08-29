@@ -37,7 +37,6 @@ body {
     0% { background-position: 0 0; }
     100% { background-position: 300px 300px; }
 }
-
 #app {
     position: relative;
     z-index: 2;
@@ -49,7 +48,6 @@ body {
     text-align: center;
     animation: fadeZoom 1.5s ease-in-out;
 }
-
 @keyframes fadeZoom {
     0% { opacity: 0; transform: scale(0.8); }
     100% { opacity: 1; transform: scale(1); }
@@ -76,7 +74,6 @@ canvas {
     box-shadow: 0 0 30px #00ffff;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
-
 canvas:hover {
     transform: scale(1.08) rotate(1deg);
     box-shadow: 0 0 50px #00ffff, 0 0 20px #00ffff inset;
