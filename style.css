@@ -16,7 +16,6 @@ body {
     color: #ffffff;
     position: relative;
 }
-
 @keyframes bgAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -124,3 +123,4 @@ button:hover {
     box-shadow: 0 0 30px #00ffff, 0 0 10px #00ffff inset;
     border-color: #00ffff;
 }
+
